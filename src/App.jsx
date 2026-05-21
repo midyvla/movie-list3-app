@@ -10,8 +10,8 @@ import MovieManagerBoard from './MovieManagerBoard.jsx'; // Ingest our structura
 import RatingArena from './RatingArena.jsx'; // Ingest our structural layout wrapper
 import WatchlistManager from './WatchlistManager.jsx'; // Ingest our structural layout wrapper
 import MovieSearchDashboard from './MovieSearchDashboard.jsx'; // Ingest our structural layout wrapper
-
-
+import UnifiedDashboard from './UnifiedDashboard.jsx'; // Ingest our structural layout wrapper
+import LiveDataFeed from './LiveDataFeed.jsx'; // Ingest our structural layout wrapper
 
 function App() {
     return (
@@ -37,6 +37,8 @@ function App() {
             <RatingArena />
             <WatchlistManager />
             <MovieSearchDashboard />
+            <UnifiedDashboard />
+            <LiveDataFeed />
         </div>
     );
 }
