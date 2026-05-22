@@ -11,7 +11,8 @@ import RatingArena from './RatingArena.jsx'; // Ingest our structural layout wra
 import WatchlistManager from './WatchlistManager.jsx'; // Ingest our structural layout wrapper
 import MovieSearchDashboard from './MovieSearchDashboard.jsx'; // Ingest our structural layout wrapper
 import UnifiedDashboard from './UnifiedDashboard.jsx'; // Ingest our structural layout wrapper
-import LiveDataFeed from './LiveDataFeed.jsx'; // Ingest our structural layout wrapper  
+import LiveDataFeed from './LiveDataFeed.jsx'; // Ingest our structural layout wrapper
+import RegistrationForm from './RegistrationForm.jsx'; // Ingest our stuctural layout wrapper
 
 function App() {
     return (
@@ -39,6 +40,7 @@ function App() {
             <MovieSearchDashboard />
             <UnifiedDashboard />
             <LiveDataFeed />
+            <RegistrationForm />
         </div>
     );
 }
