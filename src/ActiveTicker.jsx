@@ -8,8 +8,11 @@ function ActiveTicker() {
 
         // 1. Establish an ongoing background background interval loop thread
         const intervalId = setInterval(() => {
-            setSeconds(prev => prev + 1);
-            console.log("⏱️ Background Tick Loop Executed. Seconds count: ", seconds + 1);
+            setSeconds(prev => {
+                const next = prev + 1;
+                console.log("⏱️ Background Tick Loop Executed. Seconds count: ", next);
+                return next;
+            });
         }, 1000);
 
         // 2. THE CLEANUP RETURN MATRIX

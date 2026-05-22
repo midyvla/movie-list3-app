@@ -13,6 +13,7 @@ import MovieSearchDashboard from './MovieSearchDashboard.jsx'; // Ingest our str
 import UnifiedDashboard from './UnifiedDashboard.jsx'; // Ingest our structural layout wrapper
 import LiveDataFeed from './LiveDataFeed.jsx'; // Ingest our structural layout wrapper
 import RegistrationForm from './RegistrationForm.jsx'; // Ingest our stuctural layout wrapper
+import UnifiedMultiInputForm from './UnifiedMultiInputForm.jsx'; // Ingest our stuctural layout wrapper
 
 function App() {
     return (
@@ -41,6 +42,7 @@ function App() {
             <UnifiedDashboard />
             <LiveDataFeed />
             <RegistrationForm />
+            <UnifiedMultiInputForm />
         </div>
     );
 }
