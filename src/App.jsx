@@ -14,6 +14,8 @@ import UnifiedDashboard from './UnifiedDashboard.jsx'; // Ingest our structural 
 import LiveDataFeed from './LiveDataFeed.jsx'; // Ingest our structural layout wrapper
 import RegistrationForm from './RegistrationForm.jsx'; // Ingest our stuctural layout wrapper
 import UnifiedMultiInputForm from './UnifiedMultiInputForm.jsx'; // Ingest our stuctural layout wrapper
+import PreferencesForm from './PreferencesForm.jsx'; // Ingest our stuctural layout wrapper
+
 
 function App() {
     return (
@@ -43,6 +45,7 @@ function App() {
             <LiveDataFeed />
             <RegistrationForm />
             <UnifiedMultiInputForm />
+            <PreferencesForm />
         </div>
     );
 }
