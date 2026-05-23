@@ -1,4 +1,4 @@
-import React from 'react';
+
 import DisplayCard from './DisplayCard.jsx'; // Ingest our structural layout wrapper
 import MovieCard from './MovieCard.jsx';     // Ingest our customized item brick
 import MovieFeed from './MovieFeed.jsx'; // Ingest our structural layout wrapper
